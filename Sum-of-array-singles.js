@@ -10,3 +10,9 @@ and their sum is 15. Every other number occurs twice.
 
 
 // Solution
+
+function repeats(arr){
+  return arr
+  .filter(x => arr.indexOf(x) === arr.lastIndexOf(x))
+  .reduce((a, b) => a + b);
+};
