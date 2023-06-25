@@ -16,3 +16,5 @@ function repeats(arr){
   .filter(x => arr.indexOf(x) === arr.lastIndexOf(x))
   .reduce((a, b) => a + b);
 };
+
+// or
